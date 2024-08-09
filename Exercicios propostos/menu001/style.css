@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+main{
+    padding: 45px;
+    background-color: rgb(255, 255, 255);
+    width: 438px;
+    height: 1935px;
+}
+
+h1{
+    font-size: 200px;
+    text-align: center;
+    height: 360px;
+}
+
+h2.corp1{
+    background-color: rgba(224, 215, 204, 0.571);
+    height: 60px;
+    width: 450px;
+    line-height: 63px;
+    font-size: 35px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h3.corp1-sub{
+    font-size: 32px;
+    padding: 15px;
+    height: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4.corp1-p{
+    text-align: justify;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    
+}
+
+h2.corp2{
+    background-color: rgba(224, 215, 204, 0.571);
+    height: 60px;
+    width: 450px;
+    line-height: 63px;
+    font-size: 35px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3.corp2-sub{
+    font-size: 32px;
+    padding: 15px;
+    height: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-weight: 600;
+    margin: 48px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr{
+    width: 510px;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Vídeos hospedados localmente</h1>
+   <!-- <video src="midia/meu-video.mp4" width="500px" controls></video> forma mais fácil de rodar um vídeos çocalmente no seu servidor
+    ,mas , pode não ser compatível com alguns navegadores por ter apenas um tipo, o "mp4"-->
+    <video width="500px" poster="imagem/disco.jpeg" controls>
+        <source src="midia/Meu-Video2.mp4" type="video/mp4">
+        <source src="midia/Meu-Video.webm" type="video/webm">
+        <!--forma para rodar videos de diferentes tipos para adapta-se em todos os navegadores, mas,
+        rodar os videos hospedados localmente n seu servidor desta forma, consume muitas gigas de consumo de banda -->
+    </video>
+    <h1>Incorporando vídeos com o Youtube</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=QpxMTk9hO-uD9x-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
