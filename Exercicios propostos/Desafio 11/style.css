@@ -17,9 +17,10 @@
 }
 
 :root {
-    --cor1:rgb(184, 8, 8);
-    --cor2: #F2F2F2;
-    --foot: #666667;
+    --corsub:rgb(184, 8, 8);
+    --corbody: #F2F2F2;
+    --corlink: rgb(177, 3, 3);
+    --foot: #4b4a4a;
     --link: Rounds;
     --title: Noodle;
     --subtitle: Haas;
@@ -32,12 +33,12 @@
 }
 
 body {
-    background-color: var(--cor2);
+    background-color: var(--corbody);
 }
 
 header {
     width: 100%;
-    background-color: var(--cor2);
+    background-color: var(--corbody);
     height: 84px;
 }
 
@@ -56,7 +57,7 @@ header > nav#menu {
 }
 
 header > nav#menu > a {
-    color: var(--cor1);
+    color: var(--corsub);
     font-family: var(--link);
     font-weight: bold;
     font-size: 1.2em;
@@ -68,7 +69,7 @@ header > nav#menu > a {
 }
 
 header > nav#menu > a:hover {
-    background-color: var(--cor1);
+    background-color: var(--corsub);
     color: #fff;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -96,23 +97,23 @@ header > nav#subnav a:hover {
 
 main {
     background-color: #ffffff;
-    max-width: 950px;
+    max-width: 900px;
     margin: auto;
-    padding: 0px 20px 20px 20px;
+    padding: 0px 30px 20px 30px;
     box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.015);
 }
 
 main div {
     background-color: rgb(255, 255, 255);
     height: 150px;
-    position: relative;
 }
 
 main > div img {
-    position: absolute;
-    top: 17%;
-    right: 35%;
-    width: 27%;
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    width: 200px;
+    padding-top: 20px;
 }
 
 main h1 {
@@ -172,6 +173,16 @@ main p#second {
 
 main p#third {
     padding-top: 15px;
+}
+
+main > article > section a {
+    text-decoration: none;
+    color: var(--corlink);
+}
+
+main > article > section a:hover {
+    color: #fff;
+    background-color: var(--corlink);
 }
 
 article > section > picture img {
