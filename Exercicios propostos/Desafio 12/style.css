@@ -28,7 +28,11 @@ header a {
     text-decoration: none;
 }
 main {
-    position: ;
+    background-image: url(imagens/background001.jpg);
+    background-position-y: 5%;
+    background-repeat: no-repeat;
+    background-size: 100vw 1000px;
+    background-attachment: fixed;
 } 
 article > section {
     background-color: rgb(255, 255, 255);
@@ -40,24 +44,13 @@ article > section#sec2 {
     background-repeat: no-repeat;
     background-attachment: scroll;
 }
-article > section div.noimg {
-    background-color: rgb(255, 255, 255);
-    width: 350px;
+article > section p {
+    background-color: #0000007e;
+    max-width: 350px;
     height: 350px;
-}
-article > section div.cimg {
-    background-color: rgba(0, 0, 0, 0.603);
-    width: 350px;
-    height: 350px;
-}
-article > section div#gg {
-    width: 350px;
-    height: 400px;
-}
-article > section p.parag {
-    font-size: 1.5em;
-    padding-top: 80px;
-    padding-left: 15px;
+    font-size: 2em;
+    padding: 10px;
+    padding-top: 20px;
 }
 article section#sec1 {
     background-color: #fff;
